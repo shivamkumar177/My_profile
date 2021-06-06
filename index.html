@@ -15,12 +15,21 @@
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#project-container">Projects</a></li>
+            <li><a href="/Resume.pdf" download="Shivam's Resume">Resume</a></li>
+            <li><a href="#Contact-container">Contact</a></li>
+            <li><a href="#Intro">About Me</a></li>
+        </ul>
+    </nav>
     <div class="container">
         <div class="card-white" id="Intro">
             <h1>Hello, I'm Shivam 😎</h1>
             <img src="images/my_image.jpg" class="img-Circle" alt="Shivam Kumar">
             <p>
-                Hi, I am Shivam Kumar currently pursuing B.Tech in Computer Science(Batch of 2022) at Mahatma Jyotiba Phule Rohilkhand University, Bareilly
+                Hi, I am Shivam Kumar currently pursuing B.Tech in Computer Science( Batch of 2022) at Mahatma Jyotiba Phule Rohilkhand University, Bareilly
                 <br> I love Coding, and i am curious human. I also love <strong> Data Structure and Algorithms
                 </strong>, the fundamental blocks of Computer Science.
                 <br> I am a tech enthusiast who loves to read about new gadgets and technologies.
@@ -33,12 +42,6 @@
             </p>
             <p>
                 <a href="https://sourcerer.io/shivamkumar177" target="_blank"><strong>Sourcerer</strong></a>
-            </p>
-            <p>
-                <a href="https://gitlab.com/shivamkumar177" target="_blank">
-                    <span class="iconify" data-icon="fa:gitlab" data-inline="false"></span>
-                    <strong>Gitlab</strong>
-                </a>
             </p>
         </div>
         <div class="card-white">
@@ -91,13 +94,17 @@
                 </li>
             </ul>
         </div>
-        <div class="card-white">
+        <div class="card-white" id="project-container">
             <h2>Web Development</h2>
             <p>I am learning Web Development and I am passionate about it.</p>
-        </div>
-        <div class="card-white">
-            <h2>Android Development</h2>
-            <p>I am working on an android project for a local business in my city.</p>
+            <p>My Projects:</p>
+            <div class="projects-links" id="projs">
+                <a href="https://urlshortenerflask.herokuapp.com/">Url Shortener</a>
+                
+                <a href="https://huffmancompress.herokuapp.com/">Huffman Compresser</a>
+                
+                <a href="https://weatherprojectshivam.netlify.app/">Weather Api Project</a>
+            </div>
         </div>
         <div class="card-white">
             <!--<h2>Gadgets</h2>
@@ -106,9 +113,13 @@
             <p>I love playing football, jumping ropes, and video editing. I am also learning how to make edm music.</p>
             <p>I have a youtube channel where I make videos about computer games.</p>
         </div>
-        <div class="card-white">
+        <div class="card-white" id="Contact-container">
             <h2>Follow me</h2>
             <ul class="list-inline">
+                <li>
+                    <a href="https://twitter.com/shivamkumar177" target="_blank"><i
+                        class="fab fa-twitter"></i></a>
+                </li>
                 <li>
                     <a href="https://www.linkedin.com/in/shivamkumar177/" target="_blank"><i
                             class="fab fa-linkedin-in"></i></a>

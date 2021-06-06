@@ -3,6 +3,9 @@ body {
     color: rgb(31, 31, 31);
     font-family: Quicksand;
     font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -44,6 +47,8 @@ a:hover {
 
 .img-Circle {
     border-radius: 50%;
+    width: 300px;
+    height: 330px;
 }
 
 .btn-blue {
@@ -79,4 +84,24 @@ a:hover {
 
 #Intro p {
     margin: 40px;
+}
+
+.projects-links{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 0;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-break: 80px;
+    margin: 0 5px;
 }
